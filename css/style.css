@@ -1,3 +1,6 @@
+/*Sorry, I know this css file is really unorganized, I tried to label everything possible*/
+
+/*main page header css*/
 #main_page_header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -6,16 +9,22 @@
 
   text-align: center;
 }
+
+/*general class definition*/
 h3 {
   font-size: 30px;
   text-align: center;
 }
+
+/*general class definition*/
 body {
   background-color: #dcdcdc;
 }
 
+/*general class definition*/
 footer{background-color: rgb(63, 63, 63);}
 
+/*custom ID for ordered list*/
 #main_list{
   gap: 22px;
   margin-left: 60px;
@@ -23,20 +32,30 @@ footer{background-color: rgb(63, 63, 63);}
   text-align: left;
 }
 
+/*general class definition*/
 li{color: rgb(89, 73, 91);}
 
+/*general class definition*/
 p{font-size: 18px;}
 
+/*custom ID for page summary*/
 #page_summary{font-size: 24px;}
 
+/*custom ID for wiki link*/
 #wikilink{
 text-align: center;
 }
 
+/*custom class for changing grey text to purple (Currently not working, WIP)*/
+.gray{color: rgb(67, 40, 97);}
+
+
+/*general font definition*/
 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*general class definition*/
 img {
   width: 50%;
   border-radius: 8px;
@@ -44,6 +63,7 @@ img {
   margin: auto;
 }
 
+/*custom class for summaries*/
 .summary {
   padding-top: 2px;
   padding-bottom: 20px;
@@ -54,6 +74,7 @@ img {
   text-align: center; 
 }
 
+/*custom class for button-style links as described in the music page practice resource*/
 .buttonLink{
 
       background-color: #a6ffde;
@@ -66,6 +87,7 @@ img {
   margin: 10px;
 }
 
+/*custom ID for one summary description*/
 #summary_descript {
     font-size: 2px;
   list-style: none;
@@ -75,21 +97,29 @@ img {
   margin: 0;
 }
 
-
+/*custom ID for summary descriptions*/
 #summary_part1{font-size: 20px;}
 #summary_part2{font-size: 20px;}
 
+/*custom ID for height, moves the flexbox over a bit*/
 #height{ margin-left: 40px;}
 
-
+/*custom ID for returning to the main page*/
 #mainpage{text-align: center;
-background-color: #dcdcdc;
+background-color: rgb(63, 63, 63);
+  color: rgb(234, 234, 234);
 padding:20px;}
 
-#segment_title{padding:20px;}
+/*custom ID for segment title*/
+#segment_title{
+    background-color: rgb(63, 63, 63);
+  color: rgb(234, 234, 234);
+    padding:20px;}
 
+/*custom ID for flexbox*/
 #flextest{display:flex;
 margin-left: 0px;
 }
 
+/*general class definition*/
 ul{width: 380px;}
