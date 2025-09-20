@@ -17,7 +17,7 @@ body {
 footer{background-color: rgb(63, 63, 63);}
 
 #main_list{
-  gap: 20px;
+  gap: 22px;
   margin-left: 60px;
   font-size: 18px;
   text-align: left;
@@ -92,4 +92,4 @@ padding:20px;}
 margin-left: 0px;
 }
 
-li{width: 360px;}
+ul{width: 380px;}
