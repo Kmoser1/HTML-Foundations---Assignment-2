@@ -1,6 +1,6 @@
 #main_page_header {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgb(63, 63, 63);
   color: rgb(234, 234, 234);
 
@@ -19,31 +19,33 @@ body {
   margin-left: 60px;
   font-size: 18px;
   text-align: left;
-
 }
+
 #wikilink{
 text-align: center;
+}
 
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-* {
-  font-family: sans-serif;
-}
+
 img {
   width: 50%;
   border-radius: 8px;
   display: block;
   margin: auto;
 }
-.summary {
 
-  margin-top: 20px;
-  margin-bottom: 20px;
+.summary {
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   background-color: rgb(63, 63, 63);
   color: rgb(234, 234, 234);
   text-decoration-color: rgb(234, 234, 234);
   text-align: center; 
 }
+
 .buttonLink{
 
       background-color: #a6ffde;
@@ -55,6 +57,7 @@ img {
   display: inline-block;
   margin: 10px;
 }
+
 #summary_descript ul {
   list-style: none;
   display: flex;
@@ -62,9 +65,11 @@ img {
   padding: 0;
   margin: 0;
 }
+
 #height{ margin-left: 160px;}
-#width{ margin-left: 160px;
-}
+
+#width{ margin-left: 160px;}
+
 #pitch{ margin-left: 160px;}
 
 #rpm{ margin-left: 160px;}
