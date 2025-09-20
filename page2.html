@@ -3,17 +3,20 @@
 
     <!--page title for tab, with info about sub-page-->
     <head>
-    <title>Variation in Cylinder Recordings - Édouard-Léon Scott Phonautograph Paper Sheets</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+            <!-- Link to the stylesheet called style.css -->
+        <link rel="stylesheet" href="./css/style.css" />
+        
+        <title>Variation in Cylinder Recordings - Édouard-Léon Scott Phonautograph Paper Sheets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
     </head>
 
     <!--header title-->
     <main>
         <body>
             <section>
-                <header> 
+                <header id = segment_title> 
                     <h3>Édouard-Léon Scott Phonautograph Paper Sheets</h3>
                 </header>
             </section>
@@ -24,18 +27,18 @@
                 src = "./images/phonautographie.png" 
                 alt = "A phonautograph sheet with a variety of waveforms inscribed on it" 
                 width = "30%">
-                <p><a href = "https://en.wikipedia.org/wiki/Phonautograph">wiki page</a></p> 
+                <p id = wikilink><a href = "https://en.wikipedia.org/wiki/Phonautograph">wiki page</a></p> 
             </article>
 
             <!--another header for a section detailing formatting standards, or lack thereof.-->
-            <section>
+            <section id = formatting>
                 <header> 
                 <h3>Formatting</h3>
                 </header>
             </section>
 
             <!--height info-->
-            <section>
+            <section id = height>
                 <p>Height</p>
                     <ul>
                     <li>(1857): Paper sheets had a height of ~22.5 cm, corresponding to the length of the cylinder.
@@ -46,7 +49,7 @@
             </section>
 
             <!--width info-->
-            <section>
+            <section id = width>
                 <p>Width</p>
                     <ul>
                     <li>(1857) Width ~52.5 to 53 cm, representing the cylinder's circumference.
@@ -57,7 +60,7 @@
             </section>
 
             <!--trace pitch info-->
-            <section>
+            <section id = pitch>
                 <p>Trace Pitch</p>
                     <ul>
                     <li>pitch of helical multiple-trace groove was ~1.12 cm
@@ -66,7 +69,7 @@
             </section>
 
             <!--rpm info-->
-            <section>
+            <section id = rpm>
                 <p>playback RPM</p>
                     <ul>
                     <li>N/A (unstable, hand-cranked)
@@ -75,7 +78,7 @@
             </section>
 
             <!--internal link back to main page-->
-            <footer><a href="./index.html">Back to main page.</a></footer>
+            <footer id = mainpage><a href="./index.html">Back to main page.</a></footer>
         </body> 
     </main>
 </html>

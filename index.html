@@ -2,27 +2,30 @@
 <html lang="en">
 
   <!--page title for tab, for main home page.-->
-  <head>
-    <title>Variation in Cylinder Recordings</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head id = "head">
+      <!-- Link to the stylesheet called style.css -->
+      <link rel="stylesheet" href="./css/style.css" />
+
+      <title>Variation in Cylinder Recordings</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
   </head>
 
   <!--In-Page Title and page summary.-->
-  <body>
-  <header> 
-    <h1>Variation in Cylinder Recordings</h1>
-    <p>a page detailing the evolution of standards throughout the era of cylinder recordings.</p>
+  <body id = "page_body">
+  <header id="main_page_header"> 
+    <h1 id = "page_title">Variation in Cylinder Recordings</h1>
+    <p id = "page_summary">A page detailing the evolution of standards throughout the era of cylinder recordings.</p>
   </header>
 
   <!--Main list, includes ordered list and summary of cylinders.-->
-  <main>
-    <section>
+  <main id = "page1_content">
+    <section id = "main_list">
       <!--Main list directory, will eventually be able to direct user to a page describing all listed cylinder formats.-->
       <!--Currently just has internal link to page2.-->
-      <p>Timeline:</p>
-      <p>[Click on provided links to learn more]</p>
+      <p class = "gray">Timeline:</p>
+      <p id = "hint">[Click on provided links to learn more]</p>
         <ol>
         <li><a href="./page2.html">Édouard-Léon Scott Phonautograph Paper Sheets</a> (1857)</li>
         <li>Edison Foil Sheets (1877)</li>
@@ -53,15 +56,17 @@
     </section>
     
     <!--Summary of cylinders-->
-    <footer>
-      <h3>Summary of Cylinders</h3>
-      <p>"Cylinders spanned a half-century of technological development in sound recording.
-        As documents of American cultural history and musical style,</p>
-      <p>cylinders serve as an audible witness to the sounds and songs through which typical audiences
-        first encountered the recorded human voice."</p>
+    <footer class = "summary">
+      <h3 id = "summary_title">Summary of Cylinders</h3>
+      <section id = "summary_descript"></section>
+        <p id = "summary_part1">Cylinders spanned a half-century of technological development in sound recording.
+          As documents of American cultural history and musical style,</p>
+        <p id = "summary_part2">cylinders serve as an audible witness to the sounds and songs through which typical audiences
+          first encountered the recorded human voice."</p>
+      </section>
 
       <!--external link to origin of summary-->
-      <p>Source: <a href = "https://cylinders.library.ucsb.edu/history.php">Cylinder History, UCSB.</a></p> 
+      <p class = buttonLink>Source: <a href = "https://cylinders.library.ucsb.edu/history.php">Cylinder History, UCSB.</a></p> 
     </footer>
 
   </body>
