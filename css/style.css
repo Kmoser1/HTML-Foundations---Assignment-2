@@ -23,6 +23,10 @@ footer{background-color: rgb(63, 63, 63);}
   text-align: left;
 }
 
+li{color: rgb(79, 79, 79);}
+
+p{font-size: 18px;}
+
 #page_summary{font-size: 24px;}
 
 #wikilink{
