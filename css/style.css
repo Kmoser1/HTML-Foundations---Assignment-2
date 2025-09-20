@@ -23,7 +23,7 @@ footer{background-color: rgb(63, 63, 63);}
   text-align: left;
 }
 
-li{color: rgb(79, 79, 79);}
+li{color: rgb(89, 73, 91);}
 
 p{font-size: 18px;}
 
@@ -79,12 +79,17 @@ img {
 #summary_part1{font-size: 20px;}
 #summary_part2{font-size: 20px;}
 
-#height{ margin-left: 160px;}
+#height{ margin-left: 40px;}
 
-#width{ margin-left: 160px;}
 
-#pitch{ margin-left: 160px;}
+#mainpage{text-align: center;
+background-color: #dcdcdc;
+padding:20px;}
 
-#rpm{ margin-left: 160px;}
+#segment_title{padding:20px;}
 
-#mainpage{text-align: center}
+#flextest{display:flex;
+margin-left: 0px;
+}
+
+li{width: 360px;}
