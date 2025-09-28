@@ -148,3 +148,33 @@ a {
   color: #243995; 
   text-decoration: underline;
 }
+
+#page_summary{font-size: 18px;}
+      
+ @media (max-width: 800px) {
+       h1 {
+  font-size: 24px;
+  text-align: center;
+            }
+
+
+     p {
+  font-size: 14px;
+  
+            }
+
+
+
+    li {
+
+    font-size: 14px;
+
+    }
+
+
+    h2 {
+    font-size: 18px;
+    text-align: center;
+    }
+
+      }
