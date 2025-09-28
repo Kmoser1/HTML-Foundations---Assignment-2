@@ -5,7 +5,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgb(63, 63, 63);
-  color: rgb(204, 204, 204);
+  color: rgb(255, 255, 255);
 
   text-align: center;
 }
@@ -38,7 +38,7 @@ footer{background-color: rgb(63, 63, 63);}
 }
 
 /*general class definition*/
-li{color: rgb(37, 37, 37);}
+li{color: rgb(63,63,63);}
 
 /*general class definition*/
 p{font-size: 18px;}
@@ -53,7 +53,7 @@ color: rgb(9, 15, 85);
 }
 
 /*custom class for changing grey text to purple (Currently not working, WIP)*/
-.gray{color: rgb(56, 56, 56);}
+.gray{color: rgb(63,63,63);}
 
 
 /*general font definition*/
@@ -83,7 +83,7 @@ img {
 /*custom class for button-style links as described in the music page practice resource*/
 .buttonLink{
 
-      background-color: #a6ffde;
+      background-color: #a7ddd4;
   color: rgb(24, 24, 24);
   padding: 15px;
   text-align: center;
@@ -112,7 +112,7 @@ img {
 
 /*custom ID for returning to the main page*/
 #mainpage{text-align: center;
-background-color: rgb(27, 27, 27);
+background-color: rgb(63,63,63);
   color: rgb(255, 255, 255);
 padding:20px;}
 
