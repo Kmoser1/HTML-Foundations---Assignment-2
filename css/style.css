@@ -11,8 +11,13 @@
 }
 
 /*general class definition*/
-h3 {
+h1 {
   font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
   text-align: center;
 }
 
@@ -51,7 +56,7 @@ text-align: center;
 
 
 /*general font definition*/
-{
+main{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -102,7 +107,7 @@ img {
 #summary_part2{font-size: 20px;}
 
 /*custom ID for height, moves the flexbox over a bit*/
-#height{ margin-left: 40px;}
+#height{ margin-left: 0px;}
 
 /*custom ID for returning to the main page*/
 #mainpage{text-align: center;
@@ -118,8 +123,23 @@ padding:20px;}
 
 /*custom ID for flexbox*/
 #flextest{display:flex;
-margin-left: 0px;
+margin-left: 20px;
+
+
+          flex-direction:row;
+          align-items: center;
+flex-wrap: wrap;
+
+
 }
 
 /*general class definition*/
-ul{width: 380px;}
+ul{width: 360px;}
+
+      .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: DodgerBlue;
+      }
+      
+

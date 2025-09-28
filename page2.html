@@ -3,6 +3,30 @@
 
     <!--page title for tab, with info about sub-page-->
     <head>
+        <style>
+      .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: DodgerBlue;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      
+      @media (max-width: 600px) {
+        .flex-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    
+    </style>
       <!-- Link to stylesheet style.css -->
         <link rel="stylesheet" href="./css/style.css" />
         
@@ -17,7 +41,7 @@
         <body>
             <section>
                 <header id = segment_title> 
-                    <h3>Édouard-Léon Scott Phonautograph Paper Sheets</h3>
+                    <h1>Édouard-Léon Scott Phonautograph Paper Sheets</h1>
                 </header>
             </section>
     
@@ -33,7 +57,7 @@
             <!--another header for a section detailing formatting standards, or lack thereof.-->
             <section id = formatting>
                 <header> 
-                <h3>Formatting</h3>
+                <h2>Formatting</h2>
                 </header>
             </section>
 
