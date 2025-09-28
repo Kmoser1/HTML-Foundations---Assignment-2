@@ -1,29 +1,26 @@
-/*Sorry, I know this css file is really unorganized, I tried to label everything possible*/
-
 /*main page header css*/
 #main_page_header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: rgb(63, 63, 63);
-  color: rgb(255, 255, 255);
-
-  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 /*general class definition*/
 h1 {
-  font-size: 30px;
-  text-align: center;
+    font-size: 30px;
+    text-align: center;
 }
 
 h2 {
-  font-size: 24px;
-  text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 
 /*general class definition*/
 body {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 /*general class definition*/
@@ -31,10 +28,10 @@ footer{background-color: rgb(63, 63, 63);}
 
 /*custom ID for ordered list*/
 #main_list{
-  gap: 22px;
-  margin-left: 60px;
-  font-size: 18px;
-  text-align: left;
+    gap: 22px;
+    margin-left: 60px;
+    font-size: 18px;
+    text-align: left;
 }
 
 /*general class definition*/
@@ -48,8 +45,8 @@ p{font-size: 18px;}
 
 /*custom ID for wiki link*/
 #wikilink{
-text-align: center;
-color: rgb(9, 15, 85);
+    text-align: center;
+    color: rgb(9, 15, 85);
 }
 
 /*custom class for changing grey text to purple (Currently not working, WIP)*/
@@ -58,49 +55,48 @@ color: rgb(9, 15, 85);
 
 /*general font definition*/
 main{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*general class definition*/
 img {
-  width: 50%;
-  border-radius: 8px;
-  display: block;
-  margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
 }
 
 /*custom class for summaries*/
 .summary {
-  padding-top: 2px;
-  padding-bottom: 20px;
-
-  background-color: rgb(63, 63, 63);
-  color: rgb(255, 255, 255);
-  text-decoration-color: rgb(255, 255, 255);
-  text-align: center; 
+    padding-top: 2px;
+    padding-bottom: 20px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    text-align: center; 
 }
 
 /*custom class for button-style links as described in the music page practice resource*/
 .buttonLink{
 
-      background-color: #a7ddd4;
-  color: rgb(24, 24, 24);
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  display: inline-block;
-  margin: 10px;
+    background-color: #a7ddd4;
+    color: rgb(24, 24, 24);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
 }
 
 /*custom ID for one summary description*/
 #summary_descript {
     font-size: 2px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
 /*custom ID for summary descriptions*/
@@ -112,69 +108,62 @@ img {
 
 /*custom ID for returning to the main page*/
 #mainpage{text-align: center;
-background-color: rgb(63,63,63);
-  color: rgb(255, 255, 255);
-padding:20px;}
+    background-color: rgb(63,63,63);
+    color: rgb(255, 255, 255);
+    padding:20px;
+}
 
 /*custom ID for segment title*/
 #segment_title{
     background-color: rgb(63, 63, 63);
-  color: rgb(255, 255, 255);
-    padding:20px;}
+    color: rgb(255, 255, 255);
+    padding:20px;
+}
 
 /*custom ID for flexbox*/
-#flextest{display:flex;
-margin-left: 20px;
-
-
-          flex-direction:row;
-          align-items: center;
-flex-wrap: wrap;
-
-
+#flextest{
+    display:flex;
+    margin-left: 20px;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /*general class definition*/
 ul{width: 360px;}
 
-      .flex-container {
-        display: flex;
-        flex-wrap: nowrap;
-        background-color: rgb(255, 255, 255);
-      }
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+}
       
 /*change link color because the default isn't accessible according to wave */
 a {
-  color: #243995; 
-  text-decoration: underline;
+    color: #243995; 
+    text-decoration: underline;
 }
 
+/*set font size of page summary*/
 #page_summary{font-size: 18px;}
-      
- @media (max-width: 800px) {
-       h1 {
-  font-size: 24px;
-  text-align: center;
-            }
 
+/*set media query*/
+@media (max-width: 800px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
 
-     p {
-  font-size: 14px;
-  
-            }
-
-
+    p {
+        font-size: 14px;
+    }
 
     li {
-
-    font-size: 14px;
-
+        font-size: 14px;
     }
-
-
+    
     h2 {
-    font-size: 18px;
-    text-align: center;
+        font-size: 18px;
+        text-align: center;
     }
-
-      }
+}
