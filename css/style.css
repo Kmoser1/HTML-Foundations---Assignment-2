@@ -48,14 +48,14 @@ li{color: rgb(198, 198, 198);}
 p{font-size: 18px;
 color:rgb(198, 198, 198);}
 
-/*custom ID for page summary*/
-#page_summary{font-size: 24px;}
+/*custom ID for page summary [UNUSED]*/
+/*#page_summary{font-size: 24px;}*/
 
-/*custom ID for wiki link*/
-#wikilink{
+/*custom ID for wiki link* [UNUSED, due to link being replaced with button]*/
+/*#wikilink{
     text-align: center;
     color: rgb(9, 15, 85);
-}
+}*/
 
 /*custom class for changing grey text to purple (Currently not working, WIP)*/
 .gray{color: rgb(198,198,198);}
