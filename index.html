@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--NOTE: I use a variety of firefox extensions, including a "DARK READER" that automatically changes a page's colors to a high-contrast "dark mode".
+I previously did not have this extension disabled to check on my contrast. I have re-reviewed the contrast and deem it to be acceptable.-->
+
+
+
   <!--page title for tab, for main home page.-->
   <head id = "head">
 
@@ -22,8 +27,8 @@
   </head>
 
   <!--In-Page Title and page summary.-->
-  <body class="container mt-4">
-    <header class="text-center mb-4" id="main_page_header"> 
+  <body class="container mt-40">
+    <header class="text-center mb-40" id="main_page_header"> 
       <h1 id = "page_title">Variation in Cylinder Recordings</h1>
       <p class="lead">A page detailing the evolution of standards throughout the era of cylinder recordings.</p>
     </header>
@@ -65,15 +70,31 @@
     </section>
     
     <!--Summary of cylinders-->
-    <footer class = text-center>
-      <h2 id = "summary_title">Summary of Cylinders</h2>
-      <section id = "summary_descript"></section>
-       <p class= "container col-md-3" ></p>
-        <p class= "container col-md-6" >"Cylinders spanned a half-century of technological development in sound recording.
-          As documents of American cultural history and musical style, cylinders serve as an audible witness to the sounds and songs through which typical audiences
-          first encountered the recorded human voice."</p>
-           <p class= "container col-md-3" ></p>
-      </section>
+    <footer class = "text-center mt-12">
+      
+      <h2 class="mt-4 p-3" id = "summary_title">Summary of Cylinders</h2>
+        <section class="row" id = "summary_descript">
+
+        <!--using columns for spacing. Yes I know this is a weird work-around but it works.-->
+        <!--UPDATE: decided to use blank columns to house a GIF on each side. I want to mirror the leftmost one.-->
+        <!--UPDATE 2: Why am I trying to mirror a GiF through HTML, just use a second GIF.-->
+          <img class= "container col-md-2 justify-content-center"
+                    src = "./images/phonoflip.gif" 
+                    alt = "A phonograph, image mirrored horizontally." 
+                    width = "20p%">
+                    </img>
+
+            <p class= "container col-md-8" >"Cylinders spanned a half-century of technological development in sound recording.
+              As documents of American cultural history and musical style, cylinders serve as an audible witness to the sounds and songs through which typical audiences
+              first encountered the recorded human voice."</p>
+
+           <!--using columns for holding GIF and spacing.-->
+           <img class= "container col-md-2 justify-content-center"
+           src = "./images/phonograph.gif" 
+                    alt = "A phonograph." 
+                    width = "20%">
+                  </img>
+        </section>
 
       <!--external link to origin of summary-->
       <p>Source: 
