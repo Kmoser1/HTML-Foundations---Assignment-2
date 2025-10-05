@@ -175,7 +175,8 @@ a {
         font-size: 18px;
         text-align: center;
     }
-    img{
-        width: auto;
+    /*I had to dig pretty deep to figure out how to do this, but it just doesn't display the image rows when the screen is too small.*/
+    .image-b-gone {
+    display:none;
     }
 }
